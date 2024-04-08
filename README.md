@@ -11,6 +11,7 @@ Sia il ladro che la guardia si muovono di una casella alla volta tra le otto cas
 ## Inoltre, nella stanza ci sono oggetti di diversi colori a disposizione del ladro:
 
 * verde - la guardia va nella direzione opposta a quella del ladro per 10 secondi.
+ ![verde](https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6)
 * giallo - la guardia va in una direzione casuale per 10 secondi.
 * rosso - la guardia va nella direzione dell’uscita (ottimizzazione ant colony).
 Scrivere un programma per la gestione del gioco che permette di visualizzare, ad ogni inizio e fine partita, la classifica dei risultati migliori ottenuti, da tutti i giocatori, in tutte le partite (minore numero di passi per raggiungere l’uscita).
