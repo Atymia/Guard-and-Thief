@@ -13,7 +13,9 @@ Sia il ladro che la guardia si muovono di una casella alla volta tra le otto cas
 * verde - la guardia va nella direzione opposta a quella del ladro per 10 secondi.
  ![verde](https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6)
 * giallo - la guardia va in una direzione casuale per 10 secondi.
+* ![giallo](https://github.com/Atymia/Programmazione_3/assets/92294051/f0f66375-7dd0-4ed3-a5fa-0df3a08c93c9)
 * rosso - la guardia va nella direzione dell’uscita (ottimizzazione ant colony).
+* ![rosso](https://github.com/Atymia/Programmazione_3/assets/92294051/078b2dbc-48d6-4803-adf7-d40b15ff479e)
 Scrivere un programma per la gestione del gioco che permette di visualizzare, ad ogni inizio e fine partita, la classifica dei risultati migliori ottenuti, da tutti i giocatori, in tutte le partite (minore numero di passi per raggiungere l’uscita).
 
 ## Authors
