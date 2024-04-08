@@ -11,7 +11,7 @@ Sia il ladro che la guardia si muovono di una casella alla volta tra le otto cas
 ## Inoltre, nella stanza ci sono oggetti di diversi colori a disposizione del ladro:
 
 * verde - la guardia va nella direzione opposta a quella del ladro per 10 secondi.
- ![verde](https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6)
+* ![verde](https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6)
 * giallo - la guardia va in una direzione casuale per 10 secondi.
 * ![giallo](https://github.com/Atymia/Programmazione_3/assets/92294051/f0f66375-7dd0-4ed3-a5fa-0df3a08c93c9)
 * rosso - la guardia va nella direzione dell’uscita (ottimizzazione ant colony).
