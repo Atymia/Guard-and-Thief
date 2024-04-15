@@ -10,7 +10,7 @@ Sia il ladro che la guardia si muovono di una casella alla volta tra le otto cas
 
 ## Inoltre, nella stanza ci sono oggetti di diversi colori a disposizione del ladro:
 
-<div style="text-align:center">
+<div style="text-align:left">
     <p>Verde - la guardia va nella direzione opposta a quella del ladro per 10 secondi.</p>
     <img src="https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6" alt="verde">
 </div>
