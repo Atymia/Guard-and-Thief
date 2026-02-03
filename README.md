@@ -1,31 +1,32 @@
 # Guardia e Ladro 1
 
-Si vuole sviluppare un’applicazione per la simulazione di un gioco denominato guardia e ladro. 
-Un utente (giocatore) si identifica tramite il nome e cognome. 
-Si suppone di avere una stanza pavimentata a tasselli quadrati (caselle), dotata di pareti esterne ed interne. Nella stanza sono presenti una guardia e un ladro. Il giocatore deve permettere al ladro di uscire dalla stanza. 
-Sia il ladro che la guardia si muovono di una casella alla volta tra le otto caselle vicine. Devono essere previsti diversi scenari. Per ogni scenario le strategie con cui si muove la guardia sono (K è la probabilità):
+The goal is to develop an application simulating a game called Guard and Thief.
+A user (player) is identified by their first and last name.
+The game takes place in a room with a tiled floor (squares), with external and internal walls. In the room, there is a guard and a thief. The player’s goal is to allow the thief to escape from the room.
 
-* nel K% dei casi la guardia si muove a caso in una delle otto caselle vicine possibili (parete permettendo);
-* nel (100 − K)% dei casi la direzione della guardia viene calcolata usando l’algoritmo di ottimizzazione ant colony.
+Both the thief and the guard move one square at a time among the eight adjacent squares. Multiple scenarios must be supported. For each scenario, the guard’s movement strategies are as follows (K is the probability):
 
-## Inoltre, nella stanza ci sono oggetti di diversi colori a disposizione del ladro:
+* In K% of cases, the guard moves randomly to one of the eight possible adjacent squares (if not blocked by a wall);
+* In (100 − K)% of cases, the guard’s direction is calculated using the ant colony optimization algorithm.
+
+## Additionally, in the room there are objects of different colors available for the thief:
 
 <div style="text-align:left">
-    <p>Verde - la guardia va nella direzione opposta a quella del ladro per 10 secondi.</p>
+    <p>Green – the guard moves in the opposite direction of the thief for 10 seconds.</p>
     <img src="https://github.com/Atymia/Programmazione_3/assets/92294051/70722189-76d6-416d-b6f7-8dc91b10ebf6" alt="verde">
 </div>
 
 <div style="text-align:left">
-    <p>Giallo - la guardia va in una direzione casuale per 10 secondi.</p>
+    <p>Yellow – the guard moves in a random direction for 10 seconds.</p>
     <img src="https://github.com/Atymia/Programmazione_3/assets/92294051/f0f66375-7dd0-4ed3-a5fa-0df3a08c93c9" alt="giallo">
 </div>
 
 <div style="text-align:left">
-    <p>Rosso - la guardia va nella direzione dell’uscita (ottimizzazione ant colony).</p>
+    <p>ed – the guard moves toward the exit (ant colony optimization).</p>
     <img src="https://github.com/Atymia/Programmazione_3/assets/92294051/078b2dbc-48d6-4803-adf7-d40b15ff479e" alt="rosso">
 </div>
 
-Scrivere un programma per la gestione del gioco che permette di visualizzare, ad ogni inizio e fine partita, la classifica dei risultati migliori ottenuti, da tutti i giocatori, in tutte le partite (minore numero di passi per raggiungere l’uscita).
+Write a program to manage the game that displays, at the beginning and end of each match, the leaderboard of best results achieved by all players in all matches (i.e., the lowest number of steps needed to reach the exit).
 
 
 ## Authors
