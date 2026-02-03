@@ -1,4 +1,4 @@
-# Guardia e Ladro 1
+# Guard and Thief
 
 The goal is to develop an application simulating a game called Guard and Thief.
 A user (player) is identified by their first and last name.
