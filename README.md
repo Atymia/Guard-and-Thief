@@ -22,7 +22,7 @@ Both the thief and the guard move one square at a time among the eight adjacent 
 </div>
 
 <div style="text-align:left">
-    <p>ed – the guard moves toward the exit (ant colony optimization).</p>
+    <p>Red – the guard moves toward the exit (ant colony optimization).</p>
     <img src="https://github.com/Atymia/Programmazione_3/assets/92294051/078b2dbc-48d6-4803-adf7-d40b15ff479e" alt="rosso">
 </div>
 
